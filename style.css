@@ -1,0 +1,451 @@
+@media screen and (max-width: 1080px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;    
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+
+header {
+    display: flex;  
+    background-image: url("img/grille.png");  
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top: 2vh;  
+    margin-bottom: 1vh;
+    
+}
+
+h1 {
+    padding-right: 10vh;
+}
+
+.nav {
+
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.headlist {
+    display: flex;
+    gap: 1vh;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 0;
+    margin-bottom: 1vh;
+
+}
+
+.hotel {
+    padding-left: 4vh;
+}
+
+.resto {
+    padding-left: 4vh;
+}
+
+.serv {
+    padding-left: 4vh;
+}
+
+.act {
+    padding-left: 4vh;
+}
+
+.plus {
+    padding-left: 4vh;
+}
+
+.border1 {
+    background-color: #f76900;
+    height: 6px;
+    width: 80%;
+    margin-left: 3vh;
+    margin-right: 1vh;
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+
+.border2 {
+    background-color: #fcd04a; 
+    height: 6px;
+    width: 80%;
+    margin-left: 3vh;
+    margin-right: 1vh;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+.border3 {
+    background-color: #b9d482;
+    height: 6px;
+    width: 80%;
+    margin-left: 3vh;
+    margin-right: 1vh;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.border4 {
+    background-color: #3d92c2;
+    height: 6px;
+    width: 80%;
+    margin-left: 3vh;
+    margin-right: 1vh;
+    padding-right: 0;
+    padding-left: 0;
+
+} 
+
+.border5 {
+    background-color: #c068d0;
+    height: 6px;
+    width: 80%;
+    margin-left: 3vh;
+    margin-right: 1vh;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 15px;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    margin: 0;
+    margin-top: 1vh;
+
+}
+
+li {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-bottom: 0.5vh;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(211, 211, 211);
+    border: none;
+    height: 1px;  
+    width: 100%;
+
+}
+
+/*main*/
+
+.section1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    width: 40%;
+    height: auto;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    background-image: url("img/grille.png");  
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.slogan {
+font-family: "droid-serif", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 20px;
+}
+
+p, u {
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.date {
+    color: rgb(95, 95, 95);
+    font-family: "droid-serif", serif;
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 1vh;
+    margin-top: 0;
+}
+
+.section3 {
+    display: flex;    
+    justify-content: center;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.block1 {    
+    flex-basis: 80vh;
+    border-color: rgb(161, 161, 161);
+    border-style: solid;
+    border-width: 1px;    
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-bottom: 1vh ;
+    margin-bottom: 4vh;
+}
+
+.golf-section{
+    padding: 0;
+    margin: 0;
+}
+
+.golf-text {
+    padding-right: 3vh;
+}
+
+h3 {
+    color: #c45501;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.golf {
+    width: 95%;
+}
+
+.lire-plus {
+    font-family: "droid-serif", serif;
+    font-weight: 100;
+    color: rgb(95, 95, 95);
+    font-size:14px ;
+    font-style: italic;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.block2 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 2vh;
+    margin-left: 4vh;
+}
+
+.accro-section {
+    margin-bottom: 6vh;
+}
+
+.accro-text, .food-text {
+    margin-right: 6vh;
+}
+
+
+.block3 {
+    flex-basis: 170vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.img-frame { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh 2vh;
+    margin-top: 2vh;
+}
+
+.img-comm {
+    width: 25%;
+    border: rgba(0, 0, 0, 0.1) 1px solid ;
+    padding: 1vh;
+    box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section4 {
+    display: flex;    
+    justify-content: center;
+    background-image: url("img/grille.png");  
+    padding-left: 35vh;
+    padding-right: 35vh;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    gap: 5vh;
+}
+
+.contact {
+    flex-basis: 70vh;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 2vh;
+}
+
+.address, .tel, .mail-contact, .mail-support {
+    display: flex;
+}
+
+
+.icone1{
+    object-fit: contain;
+    object-position: 100%;
+    margin-bottom: 1vh;
+}
+
+.icone2 {
+    object-fit: contain;
+    object-position: 100%;
+    margin-top: 1vh;
+
+}
+
+.icone3{
+    object-fit: contain;
+    object-position: 100%;
+    margin-top: 0.5vh;
+}
+
+.icone4 {
+    object-fit: contain;
+    object-position: 100%;
+    margin-top: 0.5vh;
+}
+
+.billet {
+    flex-basis: 100vh;
+    margin-left: 5vh;
+    margin-right: 0vh;
+}
+
+.comments {
+    font-family: "droid-serif", serif;
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.last-comments {
+    flex-basis: 90vh;
+}
+
+.blabla {
+    flex-basis: 90vh;
+}
+
+h5 {
+    font-family: "droid-sans", serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0;
+    padding-bottom: 1vh;
+    margin: 0;
+}
+
+.date-block4 {
+    font-family: "droid-serif", serif;
+    color: rgb(95, 95, 95);
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 0vh;
+    margin-top: 0;
+}
+
+.txt-block4 {
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 70vh;
+}
+
+.rubrique {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h6 {
+    color: rgb(95, 95, 95);
+    font-family: "droid-sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-hr {
+    margin-top: 2.7vh;
+    border: none;
+    border-right: 1px solid rgb(95, 95, 95);
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.propos {
+    padding-left: 1vh;
+}
+
+.footer-right {
+    display: flex;
+    gap: 1vh;
+    margin-top: 2vh;
+}
+
+.rsx {
+    width: 35px;
+    height: 35px;
+}
+
+.copyright{
+    color: rgb(95, 95, 95);
+    font-size: 12px;
+    margin-left: 1vh;
+}
